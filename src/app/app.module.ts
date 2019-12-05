@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { GoalComponent } from './goal/goal.component';
 import { ListComponent } from './list/list.component';
 import { GoalDetailComponent } from './goal-detail/goal-detail.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     GoalComponent,
     ListComponent,
-    GoalDetailComponent
+    GoalDetailComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
