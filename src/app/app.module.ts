@@ -7,6 +7,7 @@ import { GoalComponent } from './goal/goal.component';
 import { ListComponent } from './list/list.component';
 import { GoalDetailComponent } from './goal-detail/goal-detail.component';
 import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StrikethroughDirective } from './strikethrough.directive';
     GoalComponent,
     ListComponent,
     GoalDetailComponent,
-    StrikethroughDirective
+    StrikethroughDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
